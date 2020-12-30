@@ -1,2 +1,3 @@
 # wordpress-wechatapp
-wordpress生成微信小程序
+wordpress小程序——使用wordpress作为后台生成多端小程序和app。
+
