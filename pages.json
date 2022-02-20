@@ -1,0 +1,141 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"enablePullDownRefresh": true,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/about/about",
+			"style": {
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/comments/comments",
+			"style": {
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/detail/detail",
+			"style": {
+				"enablePullDownRefresh": false,
+				"backgroundTextStyle": "dark"
+			}
+		},
+		{
+			"path": "pages/hot/hot",
+			"style": {
+				"navigationBarTitleText": "文章排行"
+			}
+		},
+		{
+			"path": "pages/logs/logs",
+			"style": {
+				"navigationBarTitleText": "查看启动日志"
+			}
+		},
+		{
+			"path": "pages/list/list",
+			"style": {}
+		},
+		{
+			"path": "pages/page/page",
+			"style": {}
+		},
+		{
+			"path": "pages/pay/pay",
+			"style": {}
+		},
+		{
+			"path": "pages/poster/poster",
+			"style": {}
+		},
+		{
+			"path": "pages/readlog/readlog",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/search/search",
+			"style": {
+				"enablePullDownRefresh": true,
+				"backgroundTextStyle": "dark"
+			}
+		},
+		{
+			"path": "pages/topic/topic",
+			"style": {}
+		},
+		{
+			"path": "pages/theme/theme",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/webpage/webpage",
+			"style": {}
+		},
+		{
+			"path": "pages/tags/tags",
+			"style": {}
+		},
+		{
+			"path": "pages/my/my",
+			"style": {}
+		}
+	],"easycom": {
+		"ui-(.*)": "@/ui/components/ui-$1/ui-$1.vue",
+		"app-(.*)": "@/app/components/app-$1/app-$1.vue"
+	},
+	"tabBar": {
+		"color": "#959595",
+		"selectedColor": "#118fff",
+		"borderStyle": "white",
+		"backgroundColor": "#ffffff",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"text": " "
+			},
+			{
+				"pagePath": "pages/topic/topic",
+				"text": " "
+			},
+			{
+				"pagePath": "pages/hot/hot",
+				"text": " "
+			},
+			{
+				"pagePath": "pages/my/my",
+				"text": " "
+			}
+		]
+	},
+	"requiredBackgroundModes": [
+		"audio",
+		"location"
+	],
+	"networkTimeout": {
+		"request": 10000,
+		"connectSocket": 10000,
+		"uploadFile": 10000,
+		"downloadFile": 10000
+	},
+	"sitemapLocation": "sitemap.json",
+	"resizable": false,
+	"darkmode": true,
+	"globalStyle": {
+		"backgroundTextStyle": "light",
+		"navigationBarBackgroundColor": "#fff",
+		"navigationBarTextStyle": "black",
+		"pageOrientation": "portrait",
+		"navigationStyle": "custom"
+	},
+	"subPackages": []
+}

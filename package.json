@@ -1,0 +1,9 @@
+{
+    "id": "lb-tabbar",
+    "name": "lb-tabbar自定义tabbar",
+    "version": "v1.0.3",
+    "description": "通用自定义tabbar，兼容App、H5、各小程序",
+    "keywords": [
+        "tabbar"
+    ]
+}
