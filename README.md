@@ -60,5 +60,6 @@ A: 之前的版本没有设置轮播图就会导致所有内容不显示，新�
 
  
 
-
+## 感谢
+本程序使用了开源的colorui组件库  https://github.com/Color-UI/MP-CU
  
